@@ -1,9 +1,10 @@
 .banner {
     width: auto;
-    height: 100px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
     font-size: 30px;
-    color: black;
-    text-align: center;
+    justify-content: center;
 }
 
 .nBar {
@@ -38,5 +39,5 @@ footer {
 
 .contact {
     font-size: 30px;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", "Times", "sans-serif";
 }

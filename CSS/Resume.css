@@ -25,6 +25,10 @@ a:hover {
     color: red;
 }
 
+main {
+
+}
+
 
 
 footer {
@@ -34,4 +38,9 @@ footer {
     margin-top: 260px;
     color: black;
     background-color: burlywood;
+}
+
+.contact {
+    font-size: 30px;
+    font-family: "Times New Roman", "Times", "sans-serif";
 }
