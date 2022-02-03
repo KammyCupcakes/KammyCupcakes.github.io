@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Madison Park Bakery Delivery</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: Nunito, sans-serif;
+    }
+    h1, h2 {
+        color: maroon;
+    }
+    div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+<h1>Madison Park Bakery Delivery</h1>
+<hr>
+<form>
+    <span>First Name:</span><input type="text" name="firstName"><br>
+    <span>Last Name:</span><input type="text" name="lastNight"><br>
+    <span>Room Number:</span><input type="text" name="roomNumber" size="8"><br>
+    <span>Date of Delivery:</span><input type="date" name="date"><br>
+    <div>
+        <input type="radio" name="food" value="Cheese Pizza"><span>Cheese Pizza</span> <br>
+        <input type="radio" name="food" value="Pepperoni Pizza"><span>Pepperoni Pizza</span> <br>
+        <input type="radio" name="food" value="Brownie"><span>Brownie</span> <br>
+        <input type="radio" name="food" value="Chocolate Chip Cookie"><span>Chocolate Chip Cookie</span>
+    </div>
+    <textarea name="order" rows="3" cols="100" placeholder="Enter any additional information about your order here..."></textarea><br>
+    <button type="submit">Submit Order</button><br>
+</form>
+
+<h2>User Registration</h2>
+
+<p>To earn points towards a free pizza, sign in with your student ID and password below.</p>
+
+<form>
+    <span>Student ID:</span><input type="text" name="studentID"><br>
+    <span>Password</span><input type="password" name="password"><br>
+</form>
+</body>
+
+</html>
