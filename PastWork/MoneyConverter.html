@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>USD Money Converter</title>
+
+    <style>
+        body {
+            background-color: #88BDBC;
+        }
+
+        input {
+            font-size: 20px;
+            background-color: #242582;
+            color: white;
+        }
+
+        input:hover{
+            border-radius: 5px;
+            border: 2px solid #F64C72;
+        }
+
+        .wrapper {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+    </style>
+
+
+    <script language="JavaScript">
+        function convt1(usd , eur) {
+            document.write("<link href='../CSS/USDConverter.css' rel='stylesheet'>")
+
+            var num = parseInt(prompt("How would you like the table to be increased? 0 - 20", 0))
+
+            document.write("<table border='1'>   <tr>   <th class='usd'>USD</th>  <th class='eur'>Euros</th>")
+
+            for (let d = 1; d <= 100; d = d + num) {
+                e = ((d - 0) * (0.93)).toFixed(2)
+
+                document.write("<tr>  <td class='dollar'>" + d + "</td>  <td class='euros'>" + e + "</td></tr>")
+            }
+            document.write("</table>")
+        }
+
+        function convt2(usd,francs) {
+
+            document.write("<link href='../CSS/USDConverter.css' rel='stylesheet'>")
+
+            var num =parseInt(prompt("How would you like the table to be increased? 0 and 20",0))
+
+            document.write("<table border='1'><tr>  <th class='usd2'>USD</th>   <th class='francs'>Francs</th>")
+
+
+
+            for (let d=1;d<=100;d = d + num) {
+                f= ((d-0) *  (1.035)).toFixed(2)
+
+
+
+
+                document.write("<tr>  <td class='dollar2'>"+ d + "</td>   <td class='fran'>" + f + "</td>   </tr>")
+
+            }
+
+
+
+            document.write("</table>")
+
+        }
+
+        function convt3(usd,pesos) {
+
+            document.write("<link href='../CSS/USDConverter.css' rel='stylesheet'>")
+
+            var num =parseInt(prompt("How would you like the table to be increased? 0 and 20",0))
+
+            document.write("<table border='1'><tr>   <th class='usd3'>USD</th>   <th class='pesos'>Pesos</th>")
+
+
+            for (let d=1;d<=100;d = d + num) {
+                p= ((d-0) *  (15.63)).toFixed(2)
+
+                document.write("<tr>  <td class='dollar3'>"+ d + "</td>   <td class='peso'>" + p + "</td></tr>")
+            }
+
+            document.write("</table>")
+
+        }
+
+    </script>
+
+    </table>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <input type="button" value="USD to EUR " onClick="convt1(1,100)">
+        <input type="button" value="USD to Francs" onClick="convt2(1,100)">
+        <input type="button" value="USD to Pesos " onClick="convt3(1,100)">
+    </div>
+</body>
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

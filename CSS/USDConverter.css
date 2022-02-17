@@ -1,0 +1,66 @@
+body {
+    background-color: #D1E8E2;
+}
+
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 100px;
+}
+
+.dollar {
+    background: mistyrose;
+}
+
+.usd {
+    background: #DA7B93;
+}
+
+.usd2 {
+    background: tan;
+}
+
+.usd3 {
+    background: #FBE8A6;
+}
+
+.euros {
+    background: pink;
+}
+
+.eur {
+    background: #E7717D;
+}
+
+.dollar2 {
+    background: sandybrown;
+}
+
+.francs {
+    background: palegoldenrod;
+}
+
+.fran {
+    background: peachpuff;
+}
+
+.pesos {
+    background: #F79E02;
+}
+
+.peso {
+    background: #F4976C;
+}
+
+.dollar3 {
+    background: #F3D250;
+
+}
+
+
+
