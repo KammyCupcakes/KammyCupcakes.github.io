@@ -1,0 +1,38 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web {
+    text-align: center;
+    padding: 8px;
+}
+
+.gen {
+    text-align: left;
+    background-color: #DCDCDC;
+    padding: 8px;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(2) {
+    background-color: #D3D3D3;
+}
+
+tr:nth-child(14), tr:nth-child(15), tr:nth-child(16) {
+    background-color: #FFDEAD;
+}
+
+tr:nth-child(18), tr:nth-child(19), tr:nth-child(20) {
+    background-color: #AFEEEE;
+}
+tr:nth-child(22), tr:nth-child(23), tr:nth-child(24), tr:nth-child(25) {
+    background-color: #90EE90;
+}
+
+tr:nth-child(27), tr:nth-child(28), tr:nth-child(29) {
+    background-color: #FFB6C1;
+}

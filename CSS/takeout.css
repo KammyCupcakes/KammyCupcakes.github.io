@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  font-family: Raleway;
+  color: BurlyWood;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+i {
+  margin-left: 30px;
+  color: white;
+}
+
+a {
+  color: white;
+  margin-left: 5px;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.food {
+  color: BurlyWood;
+}
+
+
+a:hover {
+  color: red;
+}
+
+
+
+
+
+html {
+  width: 100%;
+  background-image: linear-gradient(rgba(0.5, 0.5, 0.5, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.wallpapertip.com/wmimgs/76-769381_background-for-pizza-website.jpg);
+  height: auto;
+  background-position: center;
+  text-align: center;
+}
+
+.order {
+ color: black;
+}
+
+.order:hover {
+  color: red;
+}
+
+#pepperoni {
+  width: 5%;
+  background-image: url(https://ohsweetbasil.com/wp-content/uploads/2013/04/Want-the-perfect-recipe-for-pepperoni-Pizza-that-tastes-as-good-as-your-favorite-takeout-Click-through-ohsweetbasil.com_-e1414729085254-200x200.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+}
+
+#cheese {
+  width: 5%;
+  background-image: url(https://fratospizza.com/wp-content/uploads/2018/09/mac-and-cheese-pizza-200x200.jpeg?quality=100.3018110312050);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+}
+
+#bacon {
+  width: 5%;
+  background-image: url(https://diethood.com/wp-content/uploads/2014/03/Goat-Cheese-Pizza-FG-200x200.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+}
+
+#hawaiian {
+  width: 20px;
+  background-image: url(https://bakingmischief.com/wp-content/uploads/2017/02/hawaiian-naan-pizza-image-square-200x200.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+}
+
+#alfredo {
+  width: 5%;
+  background-image: url(https://i.pinimg.com/236x/a8/09/56/a809566d20414d12ea3b9712d5081dbb--thin-crust-pizza-pizza-pizza.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+}
+
+#sicilian {
+  width: 200px;
+  background-image: url(https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_100/23449_sfs-thick-crust-sicilian-style-pizza-33);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+}
+
+.menu {
+  background-color: black;
+  color: Gold;
+  position: static;
+  margin-top: 41px;
+}
+
+.large {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+
+table {
+  margin-top: 100px;
+}
+
+
+
+.pname {
+text-align: center;
+}
+
+.materials {
+  width: 100%;
+}
+
+.materials td {
+  height: 45px;
+  width: 25%;
+}
+
+.pizza {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+}
+
+td {
+  font-size: 30px;
+}
+
+.sname {
+
+}
+
+#fries {
+  width: 5%;
+  background-image: url(https://thecozycook.com/wp-content/uploads/2020/02/French-Fry-Seasoning-200x200.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+
+}
+
+#buffalo {
+  width: 5%;
+  background-image: url(https://cafedelites.com/wp-content/uploads/2017/08/Crispy-Buffalo-Chicken-WIngs-IMAGE-5-200x200.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+  background-position: center;
+  margin: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  border: 2px solid black;
+  margin-top: 220px;
+  color: BurlyWood;
+  background-color: black;
+}
+
+p {
+  color: yellow;
+}
+
+.email {
+  color: BurlyWood;
+}

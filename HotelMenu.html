@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title></title>
+    <!-- <link href="../Stylesheets/hotel.css" rel="stylesheet"> -->
+
+
+
+  </head>
+
+  <body>
+
+    <script>
+    document.write("<link href='../Stylesheets/hotel.css' rel='stylesheet'>")
+
+
+    var now = new Date()
+      dy=now.getDay()
+      hr = now.getHours()
+
+      // hr=13
+
+    // alert(hr)
+
+  if (hr>17) {
+    document.write("<p class='eam'>Good Evening " +" </p>" + "<p class='eam'>Our Dinner Menu" + "</p>")
+    document.write("<table><tr><td>The Classic Burger</td><td>Turkey Dinner</td></tr>" + "<tr><td id='burger'></td><td id='turkey'></td></tr>" + "<tr><td>A Classic Burger, American Cheese, Lettuce, Tomato, Red Onions, & Pickles With a Side of Fries</td><td>Roasted Turkey Breast Topped With Turkey Gravy.</td></tr>")
+
+    document.write("</table>")
+  }
+
+  else if(hr>12) {
+    document.write("<p class='eam'>Good Afternoon " +" </p>" + "<p class='eam'>Our Lunch Menu" + "</p>")
+    document.write("<table><tr><td>BLTA Sandwich</td><td>Philly Cheese Steak</td></tr>" + "<tr><td id='blta'></td><td id='philly'></td></tr>" + "<tr><td>Six Strips of Custom-Cured Hickory-Smoked Bacon, Lettuce, Tomato, Fresh Avocado With Mayo on Grilled Sourdough</td><td>Grilled Sirloin Steak & Onions Topped With Melted American Cheese on a Grilled Roll With a Side of Fries</td></tr>")
+
+    document.write("</table>")
+  }
+
+  else {
+    document.write("<p class='eam'>Good Morning " +" </p>" + "<p class='eam'>Our Breakfast Menu" + "</p>")
+    document.write("<table><tr><td>Breakfast Sampler</td><td>Buttermilk Stack</td></tr>" + "<tr><td id='sampler'></td><td id='buttermilk'></td></tr>" + "<tr><td>Two eggs, 2 Hickory-Smoked Bacon Strips, 2 Pork Sausage Links, 2 Thick-Cut Pieces of Ham, Golden Hash Browns & 2 Fluffy Buttermilk Pancakes</td><td>Our Classic Fluffy Buttermilk Pancakes Stack, Topped of With Real Butter</td>")
+
+    document.write("</table>")
+  }
+
+  mnth = new Array ("January","February", "March", "April", "May", "June", "July","August", "September","October", "November", "December")
+
+  dys = new Array("It is Sunday"  ,"It is Monday", "It is Tuesday", "It is Wednesday", "It is Thursday", "It is Friday", "It is Saturday")
+
+
+  document.write("<p class='eam'>" + dys[now.getDay()]+",  " + mnth[now.getMonth()] + now.getDate() + ",  " + now.getFullYear()+ "</p>" )
+
+
+
+    </script>
+
+
+
+  </body>
