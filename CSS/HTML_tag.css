@@ -1,0 +1,18 @@
+.bor {
+    border: 3px solid black;
+}
+
+.r1 {
+    border: 1px solid black;
+}
+
+.c1 {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Times New Roman", "Times", "sans-serif";
+}
+
+h1 {
+    font-family: "Times New Roman", "Times", "sans-serif";
+}
