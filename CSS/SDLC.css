@@ -1,3 +1,8 @@
+body {
+    font-size: 24px;
+    background-color: #FFEBCD;
+}
+
 .banner {
     width: auto;
     min-height: 100px;
@@ -26,22 +31,29 @@ a:hover {
     color: red;
 }
 
-
-.bor {
-    border: 3px solid black;
-}
-
-.r1 {
-    border: 1px solid black;
-}
-
-.c1 {
-    padding: 5px;
-    border: 1px solid black;
+header {
     text-align: center;
-    font-family: "Times New Roman", "Times", "sans-serif";
 }
 
-.hea {
-    font-family: "Times New Roman", "Times", "sans-serif";
+h1 {
+    text-shadow: 2px 2px #808080;
+}
+
+.explain {
+    margin: auto;
+    width: 65%;
+    color: blue;
+}
+
+table {
+    margin-top: 120px;
+    padding: 15px;
+}
+.roles {
+    color: crimson;
+}
+
+.drawing {
+    height: 65%;
+    float: right;
 }

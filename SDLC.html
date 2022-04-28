@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>General Tags</title>
-    <link href="CSS/HTML_tag.css" rel="stylesheet">
+    <title>Software Development Life Cycle</title>
+
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <link href="CSS/SDLC.css" rel="stylesheet">
 </head>
+
 <body>
-
 <header>
-
     <div class="jumbotron">
         <div class="banner">
-            <h1 class="hea" style="text-align: center">HTML General Tags</h1>
+            <h1>Software Development Life Cycle (SDLC)</h1>
         </div>
     </div>
-
 </header>
 
 <nav class="nBar">
@@ -32,7 +29,7 @@
 
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <li><a class="dropdown-item" href="HTML_TAGS.html">General HTML Tags</a></li>
-            <li><a class="dropdown-item" href="HTML_FORM_TAGS.html">General Form Tags</a></li>
+            <li><a class="dropdown-item" href="pt_MoneyConverter.html">Money Converter</a></li>
             <li><a class="dropdown-item" href="#">Blank</a></li>
         </ul>
 
@@ -64,78 +61,68 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <li><a class="dropdown-item" href="pt_Store.html">Pizza Store</a></li>
             <li><a class="dropdown-item" href="pt_MoneyConverter.html">Money Converter</a></li>
-            <li><a class="dropdown-item" href="pt_ExCollegeApp.html">College Form</a></li>
+            <li><a class="dropdown-item" href="#">Blank</a></li>
         </ul>
 
     </div>
 </nav>
 
+<hr>
+
 <main>
-    <hr>
-    <table class="bor">
-        <tr class="r1">
-            <th class="c1">Name</th>
-            <th class="c1">Tag/Element</th>
-            <th class="c1">Definition</th>
+
+    <div class="explain">
+        <p>
+            The software development life cycle (SDLC) is a process used for structuring the development of any software system, from initiation through to implementation. SDLC is very useful when trying to organize the process into a series of steps. This cycle ends with the fulfillment of all requirements. The software development life cycle comprises of seven distinct phases:
+        </p>
+    </div>
+
+    <br>
+
+    <img class="drawing" src="../Images/SDLC-Drawing.png">
+
+    <table border="1">
+        <tr>
+            <th class="roles">SDLC's</th>
+            <th class="roles">Roles</th>
         </tr>
 
-        <tr class="r1">
-            <th class="c1">Declaration</th>
-            <td class="c1"><code>!DOCTYPE</code></td>
-            <td class="c1">All HTML documents must start with a !DOCTYPE declaration. It is an 'information' to the browser about what document type to expect.</td>
-        </tr>
-        <tr class="r1">
-            <th class="c1">HTML</th>
-            <td class="c1"><code>HTML (Required)</code></td>
-            <td class="c1">The <code>html</code> tag is a required HTML tag that you would put at the beginning and end of your HTML file</td>
+        <tr>
+            <th class="roles">Planning</th>
+            <th class="roles">Product Manager and Business Sponsor (Identification of the system for development)</th>
         </tr>
 
-        <tr class="r1">
-            <th class="c1">Head</th>
-            <td class="c1"><code>head (Required)</code></td>
-            <td class="c1">The head holds information like the title, meta tags, content type, and links to CSS stylesheets and JavaScript</td>
+        <tr>
+            <th class="roles">Analysis</th>
+            <th class="roles">Business Analyst and Product Manager (Performing a detailed analysis)</th>
         </tr>
 
-        <tr class="r1">
-            <th class="c1">Title</th>
-            <td class="c1"><code>title (Required)</code></td>
-            <td class="c1">This is the text that goes in the title bar or the browser window.</td>
+        <tr>
+            <th class="roles">Design</th>
+            <th class="roles">UI Designers (Designing the system model)</th>
         </tr>
 
-        <tr class="r1">
-            <th class="c1">Body</th>
-            <td class="c1"><code>body (Required)</code></td>
-            <td class="c1">This contains the contents of the program.</td>
+        <tr>
+            <th class="roles">Development</th>
+            <th class="roles">Front and Back End Developers (Development of database and code)</th>
         </tr>
 
-        <tr class="r1">
-            <th class="c1">Paragraph</th>
-            <td class="c1"><code>p</code></td>
-            <td class="c1">This tag allows you to create lines of text or in this case "paragraphs."</td>
+        <tr>
+            <th class="roles">Testng</th>
+            <th class="roles">Usability Tester and Product Manager (Writing and Executing test cases)</th>
         </tr>
 
-        <tr class="r1">
-            <th class="c1">Headings</th>
-            <td class="c1"><code>h1, h2, h3, h4, h5, h6</code></td>
-            <td class="c1">The heading tags (h1 - h6) are typically used for the title of a page or post and it is the first header visible on a page.</td>
+        <tr>
+            <th class="roles">Deployment</th>
+            <th class="roles">Release Manager and Product Manager (Delivery of product)</th>
         </tr>
 
-        <tr class="r1">
-            <th class="c1">Horizontal Line</th>
-            <td class="c1"><code>hr</code></td>
-            <td class="c1">This is a horizontal line. You can use width and size attributes can be applied to the tag/line.</td>
-        </tr>
-
-        <tr class="r1">
-            <th class="c1">Break</th>
-            <td class="c1"><code>br</code></td>
-            <td class="c1">This tag allows you to insert line breaks</td>
+        <tr>
+            <th class="roles">Maintenance</th>
+            <th class="roles">System Manager (System changes and adjustment)</th>
         </tr>
 
     </table>
-
-
-
 
 </main>
 
@@ -144,4 +131,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+
+
+
+
 </html>
