@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS SELECTORS</title>
+  <link href="CSS/FORM_tag.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<header>
+  <div class="banner">
+    <h1 class="hea text-center">CSS Selectors</h1>
+  </div>
+</header>
+
+<nav class="nBar">
+  <a href="index.html" target="_self">Home</a>
+  <a href="Resume.html" target="_self">Resume</a>
+  <div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      HTML
+    </a>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="HTML_TAGS.html">General HTML Tags</a></li>
+      <li><a class="dropdown-item" href="HTML_FORM_TAGS.html">General Form Tags</a></li>
+      <li><a class="dropdown-item" href="#">Blank</a></li>
+    </ul>
+
+    <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      CSS
+    </a>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="pt_ExCollegeApp.html">College Form</a></li>
+      <li><a class="dropdown-item" href="pt_MoneyConverter.html">Money Converter</a></li>
+      <li><a class="dropdown-item" href="#">Blank</a></li>
+    </ul>
+
+
+    <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      JavaScript
+    </a>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="pt_ExCollegeApp.html">College Form</a></li>
+      <li><a class="dropdown-item" href="pt_MoneyConverter.html">Money Converter</a></li>
+      <li><a class="dropdown-item" href="#">Blank</a></li>
+    </ul>
+
+    <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      My Work
+    </a>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="pt_Store.html">Pizza Store</a></li>
+      <li><a class="dropdown-item" href="pt_MoneyConverter.html">Money Converter</a></li>
+      <li><a class="dropdown-item" href="pt_ExCollegeApp.html">College Form</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+<main>
+  <hr>
+  <table class="bor">
+    <tr class="r1">
+      <th class="c1"><h2>Name</h2></th>
+      <th class="c1"><h2>Tag/Element</h2></th>
+      <th class="c1"><h2>Definition</h2></th>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Class Selector</th>
+      <td class="c1"><code>.class</code></td>
+      <td class="c1">The <code>.class</code> selector selects all elements with a specific class attribute/name. </td>
+    </tr>
+    <tr class="r1">
+      <th class="c1">ID Selector</th>
+      <td class="c1"><code>#id</code></td>
+      <td class="c1">The <code>#id</code> selector styles the element with the specified id.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Element Selector</th>
+      <td class="c1"><code>p</code></td>
+      <td class="c1"> The element selector selects all elements with the specified element name.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Element Class Selector</th>
+      <td class="c1"><code>p</code></td>
+      <td class="c1">The element.class selector is used to select the specified element with the specified class.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Element, Element Selector</th>
+      <td class="c1"><code>h1, h2</code></td>
+      <td class="c1">Allows for two or more elements to be selected and styled at once by using a comma.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Element Element Selector</th>
+      <td class="c1"><code>tr td</code></td>
+      <td class="c1">The element element selector is used to select elements inside elements.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Element>Element Selector</th>
+      <td class="c1"><code>tr > td</code></td>
+      <td class="c1">The element>element selector is used to select elements with a specific parent.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Element+Element Selector</th>
+      <td class="c1"><code>tr + td</code></td>
+      <td class="c1">The element+element selector is used to select an element that Is directly after another specific element.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">Element~Element Selector</th>
+      <td class="c1"><code>h1 ~ ul</code></td>
+      <td class="c1">The <code>element1~element2</code> selector matches occurrences of element2 that are preceded by element1. Both elements must have the same parent, but element2 does not have to be immediately preceded by element1.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">* Selector</th>
+      <td class="c1"><code>*</code> or <code>div *</code></td>
+      <td class="c1">The <code>*</code> selector selects all elements. The * selector can also select all elements inside another element</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:active Selector</th>
+      <td class="c1"><code>a:active</code></td>
+      <td class="c1">The <code>:active</code> selector is used to select and style the active link. Once you click a link it will become active. <code>:active</code> MUST come after <code>:hover</code> to work.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">::after Selector</th>
+      <td class="c1"><code>p::after</code></td>
+      <td class="c1">The <code>::after</code> selector insert something after the content of each selected element(s).</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">::before Selector</th>
+      <td class="c1"><code>p::before</code></td>
+      <td class="c1">The <code>::before</code> selector inserts something before the content of each selected element(s).</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:link Selector</th>
+      <td class="c1"><code>a:link</code></td>
+      <td class="c1">The <code>:link</code> selector is used to select unvisted links.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:visted Selector</th>
+      <td class="c1"><code>a:visited</code></td>
+      <td class="c1">The <code>:visited</code> selector is used to select visited links.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:hover Selector</th>
+      <td class="c1"><code>a:hover</code></td>
+      <td class="c1">The <code>:hover</code> selector is used to select elements when you hover over them.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:target Selector</th>
+      <td class="c1"><code>div:target</code></td>
+      <td class="c1">The <code>:target</code> selector can be used on URLs with an # followed by an anchor name link to a certain element. </td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:first-child Selector</th>
+      <td class="c1"><code>p:first-child</code></td>
+      <td class="c1">The <code>:first-child</code> selector is used to select the specified selector, only if it is the first child of its parent.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:only-child Selector</th>
+      <td class="c1"><code>p:only-child</code></td>
+      <td class="c1">The <code>:only-child</code> selector matches every element that is the only child of its parent.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">:last-child Selector</th>
+      <td class="c1"><code>p:last-child</code></td>
+      <td class="c1">The <code>:last-child</code> selector matches every element taht is the only child of its parent.</td>
+    </tr>
+
+    <tr class="r1">
+      <th class="c1">::first-letter Selector</th>
+      <td class="c1"><code>p::first-letter</code></td>
+      <td class="c1">The <code>::first-letter</code> selector is used to add a style to the first letter of the specified selector. It can only be used with block-level elements.</td>
+    </tr>
+
+
+
+  </table>
+
+
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
