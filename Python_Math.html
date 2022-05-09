@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Math</title>
+    <link href="CSS/Python.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="banner">
+        <h1 class="hea text-center">Python Math</h1>
+    </div>
+</header>
+
+<nav class="nBar">
+    <a href="index.html" target="_self">Home</a>
+    <a href="Resume.html" target="_self">Resume</a>
+    <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            HTML
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="HTML_TAGS.html">General HTML Tags</a></li>
+            <li><a class="dropdown-item" href="HTML_FORM_TAGS.html">General Form Tags</a></li>
+            <li><a class="dropdown-item" href="#">Blank</a></li>
+        </ul>
+
+        <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            CSS
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="CSS_Selectors.html">CSS Selectors</a></li>
+            <li><a class="dropdown-item" href="#">Blank</a></li>
+            <li><a class="dropdown-item" href="#">Blank</a></li>
+        </ul>
+
+
+        <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            JavaScript
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Blank</a></li>
+            <li><a class="dropdown-item" href="#">Blank</a></li>
+            <li><a class="dropdown-item" href="#">Blank</a></li>
+        </ul>
+
+        <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Python
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="Python_Math.html">Python Math</a></li>
+            <li><a class="dropdown-item" href="#">Python Loops</a></li>
+            <li><a class="dropdown-item" href="#">Blank</a></li>
+        </ul>
+
+        <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            My Work
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="pt_Store.html">Pizza Store</a></li>
+            <li><a class="dropdown-item" href="pt_MoneyConverter.html">Money Converter</a></li>
+            <li><a class="dropdown-item" href="pt_ExCollegeApp.html">College Application</a></li>
+            <li><a class="dropdown-item" href="pt_Course-Grid.html">Course Grid</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<main>
+    <hr>
+    <table class="bor">
+        <tr class="r1">
+            <th class="c1"><h2>Name</h2></th>
+            <th class="c1"><h2>Definition</h2></th>
+            <th class="c1"><h2>Example</h2></th>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1">Min and Max Function</th>
+            <td class="c1">The <code>min()</code> and <code>max()</code> functions can be used to find the lowest or highest value.</td>
+            <td class="c1"><code>x = min(10, 25, 0)<br>print(x)</code> <br>Displayed will be 0 as its the minimum/lowest value in the function.<br>
+                <code>y = min(25, 50, 5)<br>print(y)</code> <br>Displayed will be 50 as its the maximum/higher value in the function.
+            </td>
+        </tr>
+        <tr class="r1">
+            <th class="c1">pow() Function</th>
+            <td class="c1"><code>pow(x, y)</code> function returns the value of x to the power of y (x^y).</td>
+            <td class="c1">The <code>x = pow(7, 3)<br>print(x)</code> <br>This returns the value of 7 to the power 3.</td>
+        </tr>
+        <tr class="r1">
+            <th class="c1" colspan="3">Math Module (import math)</th>
+        </tr>
+        <tr class="r1">
+            <th class="c1">math.sqrt() method</th>
+            <td class="c1">The <code>math.sqrt()</code> method returns the square root of a number.</td>
+            <td class="c1"><code>import</code> math <br><code>x = math.sqrt(81)<br>print(x)</code><br> X returns 9.0 when printed</td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1">math.pi</th>
+            <td class="c1">The <code>math.pi</code> constant, returns the value of PI.</td>
+            <td class="c1"><code>import</code> math <br><code>x = math.pi<br>print(x)</code><br> X returns 3.141592653589793 when printed</td>
+        </tr>
+
+    </table>
+
+
+    <h2 class="banner">Python Loops</h2>
+
+
+    <table class="bor">
+        <tr class="r1">
+            <th class="c1"><h2>Name</h2></th>
+            <th class="c1"><h2>Definition</h2></th>
+            <th class="c1"><h2>Example</h2></th>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>while</code> loops</th>
+            <td class="c1">With the <code>while</code> loop can execute a set of statements as long as a condition is true. </td>
+            <td class="c1"><code>k = 1<br>while k < 9:<br>  print(k)<br>    k += 1</code><br> K would print number 1 to 8</td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>break</code> Statement</th>
+            <td class="c1">The break statement can stop the loop even if the while condition is true</td>
+            <td class="c1"><code>k = 1<br>while k < 9:<br>
+                print(k)<br>    if (k == 6):<br>    break<br>    k += 1</code><br> K would print up until k is equal to 6
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>continue</code> Statement</th>
+            <td class="c1">The <code>continue</code> statement can stop the current iteration, and continue wih the next.</td>
+            <td class="c1"><code>k = 1<br>while k < 9:<br>
+                print(k)<br>    if (k == 6):<br>    continue<br>print(k)</code><br> K would print every number up to 9 except 6. </td>
+        </tr>
+
+
+
+
+
+    </table>
+
+
+
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
