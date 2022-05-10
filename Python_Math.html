@@ -87,14 +87,14 @@
         </tr>
 
         <tr class="r1">
-            <th class="c1">Min and Max Function</th>
+            <th class="c1"><code>min() and max()</code> Function</th>
             <td class="c1">The <code>min()</code> and <code>max()</code> functions can be used to find the lowest or highest value.</td>
             <td class="c1"><code>x = min(10, 25, 0)<br>print(x)</code> <br>Displayed will be 0 as its the minimum/lowest value in the function.<br>
                 <code>y = min(25, 50, 5)<br>print(y)</code> <br>Displayed will be 50 as its the maximum/higher value in the function.
             </td>
         </tr>
         <tr class="r1">
-            <th class="c1">pow() Function</th>
+            <th class="c1"><code>pow()</code> Function</th>
             <td class="c1"><code>pow(x, y)</code> function returns the value of x to the power of y (x^y).</td>
             <td class="c1">The <code>x = pow(7, 3)<br>print(x)</code> <br>This returns the value of 7 to the power 3.</td>
         </tr>
@@ -102,13 +102,13 @@
             <th class="c1" colspan="3">Math Module (import math)</th>
         </tr>
         <tr class="r1">
-            <th class="c1">math.sqrt() method</th>
+            <th class="c1"><code>math.sqrt()</code> method</th>
             <td class="c1">The <code>math.sqrt()</code> method returns the square root of a number.</td>
             <td class="c1"><code>import</code> math <br><code>x = math.sqrt(81)<br>print(x)</code><br> X returns 9.0 when printed</td>
         </tr>
 
         <tr class="r1">
-            <th class="c1">math.pi</th>
+            <th class="c1"><code>math.pi</code></th>
             <td class="c1">The <code>math.pi</code> constant, returns the value of PI.</td>
             <td class="c1"><code>import</code> math <br><code>x = math.pi<br>print(x)</code><br> X returns 3.141592653589793 when printed</td>
         </tr>
@@ -116,7 +116,7 @@
     </table>
 
 
-    <h2 class="banner">Python Loops</h2>
+    <h2 class="banner">Python While Loops</h2>
 
 
     <table class="bor">
@@ -144,11 +144,244 @@
             <th class="c1"><code>continue</code> Statement</th>
             <td class="c1">The <code>continue</code> statement can stop the current iteration, and continue wih the next.</td>
             <td class="c1"><code>k = 1<br>while k < 9:<br>
-                print(k)<br>    if (k == 6):<br>    continue<br>print(k)</code><br> K would print every number up to 9 except 6. </td>
+                print(k)<br>    if k == 6:<br>    continue<br>print(k)</code><br> K would print every number up to 9 except 6. </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>else</code> Statement</th>
+            <td class="c1">The <code>else</code> statement allows us to run a block of code when the condition no longer is true.</td>
+            <td class="c1"><code>k = 1<br>while k < 9:<br>
+                print(k)<br>    k += 1<br>    else:<br>print("k is no longer less than 9")</code><br>Once the condition is false (when it reaches 8) the print statement will be displayed.</td>
         </tr>
 
 
 
+
+
+    </table>
+
+    <h2 class="banner">Python For Loops</h2>
+
+    <table class="bor">
+
+        <tr class="r1">
+            <th class="c1">Name</th>
+            <th class="c1">Definition</th>
+            <th class="c1">Example</th>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>for</code> Loop</th>
+            <td class="c1"><code>for</code> loops are used when you have a block of code which you want to repeat a fixed number of times. The for-loop is always used in combination with an iterable object, like a list or a range.</td>
+            <td class="c1"><code>fruits = ["apple", "banana", "cherry"]<br>for x in fruits:<br>print(x)</code></td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1">Looping Through a String</th>
+            <td class="c1">Similarly, strings are iterable objects as they contain a sequence of character.</td>
+            <td class="c1"><code>for x in "kameron":<br>print(x)</code><br>This will print out each letter in the name "kameron"</td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>break</code> Statement</th>
+            <td class="c1">The break statement can stop a loop before it has looped through all the items.</td>
+            <td class="c1">
+                <code>
+                    games = ["Valorant", "Counter-Strike", "Rainbow Six Siege"]<br>
+                    for x in games:<br>
+                        print(x)
+                        if x == "Counter-Strike":<br>
+                            break<br>
+                </code>
+                The break statement at the end would make the loop stop once it gets to "Counter-Strike"
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>continue</code> Statement</th>
+            <td class="c1">The continue statement we can stop the current iteration of the loop and continue with the proceeding one.</td>
+            <td class="c1">
+                <code>
+                    games = ["Valorant", "Counter-Strike", "Rainbow Six Siege"]<br>
+                    for x in games:<br>
+                        if x == "Counter-Strike":<br>
+                            continue
+                        print(x)<br>
+                </code>
+                This code would display "Valorant" and "Rainbow Six Siege" since the continue is set to skip "Counter-Strike"
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1">The <code>range()</code> Function</th>
+            <td class="c1">The <code>range()</code> function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.</td>
+            <td class="c1">
+                <code>
+                    for x in range(6):<br>
+                        print(x)<br>
+                </code>
+                This displays numbers in the range of 0 to 5.<br>
+                <code>
+                    for x in range of (3, 9):<br>
+                        print(x)<br>
+                </code>
+                This displays numbers from 3 to 8.<br>
+                <code>
+                    for x in range(2, 50, 3):<br>
+                    print(x)<br>
+                </code>
+                This will display numbers from 2 to 47, but due to adding that third parameter (3) it will now go up by an increment of 3.
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>else</code></th>
+            <td class="c1">The <code>else</code> keyword in a <code>for</code> loop specifies a block of code to be executed when the loop is finished.</td>
+            <td class="c1">
+                <code>
+                    for x in range(6):<br>
+                        print(x)<br>
+                    else:<br>
+                        print("Finally finished")<br>
+                </code>
+                    This would display numbers from 0 to 5 and once
+                    5 is reached the print statement is displayed to the user letting them know the <code>for</code> loop condition is false
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>pass</code> Statement</th>
+            <td class="c1">If your loop was empty and had no content, put in the pass statement to avoid getting an error.</td>
+            <td class="c1">
+                <code>
+                    for x in [0, 1, 2]<br>
+                        pass<br>
+                </code>
+                    This code doesn't display anything but if the <code>pass</code> statement wasn't there it would raise an error.
+            </td>
+        </tr>
+        
+        <tr class="r1">
+            <th class="c1"><code>Nested</code> loops</th>
+            <td class="c1">
+                A nested loop is a loop inside a loop.<br>
+                The "inner loop" will be executed/run one time for each iteration of the "outer loop"
+            </td>
+            <td class="c1">
+                <code>
+                    adj = ["", "", ""]<br>
+                    fruits = ["", "", ""]<br>
+                    for x in adj:<br>
+                        for y in fruits:<br>
+                            print(x, y)<br>
+                </code>
+                This prints the following:<br>
+                red apple <br>
+                red banana <br>
+                red cherry <br>
+                big apple <br>
+                big banana <br>
+                big cherry <br>
+                tasty apple <br>
+                tasty banana <br>
+                tasty cherry <br>
+            </td>
+        </tr>
+
+    </table>
+
+
+    <h2 class="banner">Python Control Structures</h2>
+
+
+    <table class="bor">
+        <tr class="r1">
+            <th class="c1">Name</th>
+            <th class="c1">Definition</th>
+            <th class="c1">Example</th>
+        </tr>
+
+
+
+        <tr class="r1">
+            <th class="c1"><code>Condition</code> Statements</th>
+            <td class="c1">Condition statements are used to evaluate the code to see if it meets the specified conditions.</td>
+            <td class="c1">
+                <code>
+                    <ul>
+                        <li class="remove">Equals: a == b</li>
+                        <li class="remove">Not Equals: a != b</li>
+                        <li class="remove">Less than: a < b</li>
+                        <li class="remove">Less than or equal to: a <= b</li>
+                        <li class="remove">Greater than: a > b</li>
+                        <li class="remove">Greater than or equal to: a >= b</li>
+                    </ul>
+                </code>
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>if</code> Statements</th>
+            <td class="c1"><code>if</code> statements allow for conditional execution of a statement or group of statements based on the value of an expression.</td>
+            <td class="c1">
+                <code>
+                    k = 18<br>
+                    j = 20<br>
+                    if j > k:<br>
+                        print("j is greater than k")<br>
+                </code>
+                    This code compares the values assigned to j & k, so if j is greater than k it will print "j is greater than k".
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>Indentation</code></th>
+            <td class="c1">Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.</td>
+            <td class="c1">
+                If statement, without proper indentation:<br>
+                <code>
+                    j = 20<br>
+                    k = 18<br>
+                    if j > k<br>
+                    print("j is greater than k")<br>
+                </code>
+                This would give an error since the print statement is not indented to be inside of the <code>if</code> statement. (This also matters for <code>elif</code> statements & <code>else</code> statements.)
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>elif</code> Statements</th>
+            <td class="c1">The <code>elif</code> statement is pythons way of saying "if the previous conditions were not true, then try this condition"</td>
+            <td class="c1">
+                <code>
+                    j = 20<br>
+                    k = 20<br>
+                    if j > k:<br>
+                        print("j is greater than k")<br>
+                    elif j == k:<br>
+                        print("j and k are equal")<br>
+                </code>
+                    This code would display the print statement from the elif as the condition was true and the ifs condition was false
+            </td>
+        </tr>
+
+        <tr class="r1">
+            <th class="c1"><code>else</code> Statements</th>
+            <td class="c1">The <code>else</code> statements catch anything which isn't caught by the preceding conditions.</td>
+            <td class="c1">
+                <code>
+                    j = 20<br>
+                    k = 28<br>
+                    if j > k:<br>
+                        print("j is greater than k")<br>
+                    elif j == k:<br>
+                        print("j and k are equal")<br>
+                    else:<br>
+                        print("k is greater than j")<br>
+                </code>
+                    This code would display the print statement from the else statement as the if & elif conditions were false.
+            </td>
+        </tr>
 
 
     </table>
