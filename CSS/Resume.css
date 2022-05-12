@@ -1,9 +1,10 @@
 .banner {
     width: auto;
-    height: 30px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
     font-size: 30px;
-    color: black;
-    text-align: center;
+    justify-content: center;
 }
 
 .nBar {
@@ -15,10 +16,14 @@
 }
 
 a {
-    color: white;
-    margin-left: 20px;
-    font-size: 30px;
+    color: blue;
+    margin-left: 15px;
     text-decoration: none;
+}
+
+.clr {
+    font-size: 30px;
+    color: white;
 }
 
 a:hover {
@@ -37,8 +42,8 @@ main {
      font-weight: bold;
 }
 
-#small {
-    font-size: 25px;
+.small {
+    font-size: 15px;
 }
 
 .txt {

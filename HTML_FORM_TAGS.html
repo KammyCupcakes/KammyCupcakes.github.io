@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Tags</title>
-    <link href="CSS/FORM_tag.css" rel="stylesheet">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link href="CSS/FORM_tag.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </head>
@@ -29,7 +27,7 @@
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="HTML_TAGS.html">General HTML Tags</a></li>
                 <li><a class="dropdown-item" href="HTML_FORM_TAGS.html">General Form Tags</a></li>
-                <li><a class="dropdown-item" href="#">Blank</a></li>
+                <li><a class="dropdown-item" href="SDLC.html">SDLC</a></li>
             </ul>
 
             <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,19 +36,6 @@
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="CSS_Selectors.html">CSS Selectors</a></li>
-                <li><a class="dropdown-item" href="#">Blank</a></li>
-                <li><a class="dropdown-item" href="#">Blank</a></li>
-            </ul>
-
-
-            <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                JavaScript
-            </a>
-
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Blank</a></li>
-                <li><a class="dropdown-item" href="#">Blank</a></li>
-                <li><a class="dropdown-item" href="#">Blank</a></li>
             </ul>
 
             <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,8 +44,6 @@
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="Python_Math.html">Python Math</a></li>
-                <li><a class="dropdown-item" href="#">Python Loops</a></li>
-                <li><a class="dropdown-item" href="#">Blank</a></li>
             </ul>
 
             <a class="btn btn-secondary dropdown-toggle" href="Assignments.html" role="button" class="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -77,79 +60,79 @@
         </div>
     </nav>
 
-<main>
-    <hr>
-    <table class="bor">
-        <tr class="r1">
-            <th class="c1">Name</th>
-            <th class="c1">Tag/Element</th>
-            <th class="c1">Definition</th>
-        </tr>
+    <main>
+        <hr>
+        <table class="bor">
+            <tr class="r1">
+                <th class="c1">Name</th>
+                <th class="c1">Tag/Element</th>
+                <th class="c1">Definition</th>
+            </tr>
 
-        <tr class="r1">
-            <th class="c1">Form</th>
-            <td class="c1"><code>form</code> | Attributes: <code>action</code></td>
-            <td class="c1">The <code>form</code> tag is used to create an HTML form for the user input.</td>
-        </tr>
-        <tr class="r1">
-            <th class="c1">Input</th>
-            <td class="c1"><code>input</code> | Attributes: <code>name, button, date, email, number, password, radio, text, submit, type, id</code></td>
-            <td class="c1">
-                The <code>input</code> tag specifies an input field where the user can enter data and can be displayed in several ways, depending on the type attribute.
-                <ul>
-                    <li class="remove"><code>radio</code>: Displays a radio button where the user can select one choice</li>
-                    <li class="remove"><code>checkbox</code>: Displays a checkbox where the user can select multiple choices</li>
-                    <li class="remove"><code>text</code>: Displays a single-line text input field</li>
-                    <li class="remove"></li>
-                </ul>
-            </td>
-        </tr>
+            <tr class="r1">
+                <th class="c1">Form</th>
+                <td class="c1"><code>form</code> | Attributes: <code>action</code></td>
+                <td class="c1">The <code>form</code> tag is used to create an HTML form for the user input.</td>
+            </tr>
+            <tr class="r1">
+                <th class="c1">Input</th>
+                <td class="c1"><code>input</code> | Attributes: <code>name, button, date, email, number, password, radio, text, submit, type, id</code></td>
+                <td class="c1">
+                    The <code>input</code> tag specifies an input field where the user can enter data and can be displayed in several ways, depending on the type attribute.
+                    <ul>
+                        <li class="remove"><code>radio</code>: Displays a radio button where the user can select one choice</li>
+                        <li class="remove"><code>checkbox</code>: Displays a checkbox where the user can select multiple choices</li>
+                        <li class="remove"><code>text</code>: Displays a single-line text input field</li>
+                        <li class="remove"></li>
+                    </ul>
+                </td>
+            </tr>
 
-        <tr class="r1">
-            <th class="c1">Label</th>
-            <td class="c1"><code>label</code> | Attributes: <code>for</code></td>
-            <td class="c1">
-                The <code>label</code> tag defines a label for input type elements:
-                <ul>
-                    <li class="remove">input type="checkbox"</li>
-                    <li class="remove">input type="name"</li>
-                    <li class="remove">input type="password"</li>
-                    <li class="remove">input type="text"</li>
-                    <li class="remove">input type="date"</li>
-                </ul>
-            </td>
-        </tr>
+            <tr class="r1">
+                <th class="c1">Label</th>
+                <td class="c1"><code>label</code> | Attributes: <code>for</code></td>
+                <td class="c1">
+                    The <code>label</code> tag defines a label for input type elements:
+                    <ul>
+                        <li class="remove">input type="checkbox"</li>
+                        <li class="remove">input type="name"</li>
+                        <li class="remove">input type="password"</li>
+                        <li class="remove">input type="text"</li>
+                        <li class="remove">input type="date"</li>
+                    </ul>
+                </td>
+            </tr>
 
-        <tr class="r1">
-            <th class="c1">Button</th>
-            <td class="c1"><code>button</code> | Attributes: <code>type, name</code></td>
-            <td class="c1">The <code>button</code> tag defines a clickable button.</td>
-        </tr>
+            <tr class="r1">
+                <th class="c1">Button</th>
+                <td class="c1"><code>button</code> | Attributes: <code>type, name</code></td>
+                <td class="c1">The <code>button</code> tag defines a clickable button.</td>
+            </tr>
 
-        <tr class="r1">
-            <th class="c1">Fieldset</th>
-            <td class="c1"><code>fieldset</code> | Attributes: <code>name</code></td>
-            <td class="c1">The <code>fieldset</code> tag is used to group related elements in a form. It also creates/draws a box around those elements. The <code>legend</code> tag is used to define a caption for the <code>fieldset</code> element</td>
-        </tr>
+            <tr class="r1">
+                <th class="c1">Fieldset</th>
+                <td class="c1"><code>fieldset</code> | Attributes: <code>name</code></td>
+                <td class="c1">The <code>fieldset</code> tag is used to group related elements in a form. It also creates/draws a box around those elements. The <code>legend</code> tag is used to define a caption for the <code>fieldset</code> element</td>
+            </tr>
 
-        <tr class="r1">
-            <th class="c1">Option</th>
-            <td class="c1"><code>option</code> | Attributes: <code>value</code></td>
-            <td class="c1">The <code>option</code> tag defines an option in a select list. <code>option</code> elements go inside other elements like <code>select, optgroup, datalist</code>.</td>
-        </tr>
+            <tr class="r1">
+                <th class="c1">Option</th>
+                <td class="c1"><code>option</code> | Attributes: <code>value</code></td>
+                <td class="c1">The <code>option</code> tag defines an option in a select list. <code>option</code> elements go inside other elements like <code>select, optgroup, datalist</code>.</td>
+            </tr>
 
-        <tr class="r1">
-            <th class="c1">Textarea</th>
-            <td class="c1"><code>textarea</code> | Atrributes: <code>rows, cols, name, id.</code></td>
-            <td class="c1">The <code> textarea</code> tag defines a multi-line textbox. This element is used in forms to collect user inputs like reviews or additional comments</td>
-        </tr>
+            <tr class="r1">
+                <th class="c1">Textarea</th>
+                <td class="c1"><code>textarea</code> | Atrributes: <code>rows, cols, name, id.</code></td>
+                <td class="c1">The <code> textarea</code> tag defines a multi-line textbox. This element is used in forms to collect user inputs like reviews or additional comments</td>
+            </tr>
 
-    </table>
-
-
+        </table>
 
 
-</main>
+
+
+    </main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
